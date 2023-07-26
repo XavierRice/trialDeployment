@@ -9,7 +9,8 @@ function App() {
 
   return (
     <>
-    <h1>Xavier Rice{import.meta.env.VITE_XAVIER_VAR}</h1>
+    <h1>Xavier Rice: this is my secret-{import.meta.env.VITE_XAVIER_VAR}</h1>
+   
     </>
   )
 }
