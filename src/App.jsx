@@ -4,11 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  
+
+  console.log(`${import.meta.env.VITE_XAVIER_VAR}`)
 
   return (
     <>
-    <h1>Xavier Rice</h1>
+    <h1>Xavier Rice{import.meta.env.VITE_XAVIER_VAR}</h1>
     </>
   )
 }
